@@ -4,10 +4,9 @@
     url("assets/fonts/AvantGardeMdITC-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 5rem;
+  font-size: 2rem;
 }

@@ -1,0 +1,53 @@
+@media screen and (min-width: 700px) {
+  .hero {
+    margin-bottom: 1rem;
+  }
+  .container {
+    width: 50%;
+    padding: 3rem;
+    padding-top: 2rem;
+  }
+  .singsing-logo {
+    width: 60%;
+    margin: 1rem;
+  }
+
+  .intro-svg {
+    width: 60%;
+    margin-top: 1rem;
+  }
+
+  .welcome-letter {
+    padding: 5rem;
+    padding-left: 10%;
+  }
+
+  .welcome-letter h2,
+  h3,
+  p {
+    margin: 20px;
+  }
+  .welcome-letter .text-container {
+    width: 65%;
+  }
+
+  .welcome-letter .microphone-container {
+    width: 35%;
+    position: relative;
+  }
+
+  .welcome-letter h2 {
+    font-size: 6.5rem;
+  }
+
+  .welcome-letter h3 {
+    font-size: 3.5rem;
+  }
+
+  .welcome-letter p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+}
