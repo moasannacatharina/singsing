@@ -1,0 +1,18 @@
+@keyframes note {
+  0% {
+    transform: rotate(0deg);
+    fill: var(--color-blue);
+  }
+  50% {
+    transform: rotate(0deg);
+    fill: var(--color-blue);
+  }
+  50.01% {
+    transform: rotate(-10deg);
+    fill: var(--color-red);
+  }
+  100% {
+    transform: rotate(-10deg);
+    fill: var(--color-red);
+  }
+}
