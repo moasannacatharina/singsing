@@ -16,3 +16,27 @@
     fill: var(--color-red);
   }
 }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes show-time {
+  0% {
+    transform: translateY(500px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

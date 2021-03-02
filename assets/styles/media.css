@@ -18,17 +18,19 @@
   }
 
   .welcome-letter {
-    padding: 5rem;
-    padding-left: 10%;
+    padding: 1rem;
   }
 
   .welcome-letter h2,
   h3,
+  button,
   p {
     margin: 20px;
   }
   .welcome-letter .text-container {
     width: 65%;
+    padding: 5rem;
+    padding-left: 10%;
   }
 
   .welcome-letter .microphone-container {
@@ -49,5 +51,17 @@
     letter-spacing: 1px;
     line-height: 20px;
     font-weight: 400;
+  }
+
+  .welcome-letter button {
+    background-color: var(--color-blue);
+    border: none;
+    box-shadow: unset;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 2rem;
+    padding: 15px 30px;
   }
 }
