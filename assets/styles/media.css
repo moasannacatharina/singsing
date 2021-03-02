@@ -64,6 +64,12 @@
     padding: 15px 30px;
   }
 
+  .welcome-letter button:hover {
+    background-color: white;
+    color: var(--color-blue);
+    cursor: pointer;
+  }
+
   .welcome-letter {
     background-color: var(--color-red);
     width: 100%;
@@ -108,6 +114,7 @@
 
   .mic-two {
     transform: scale(0.7) rotate(130deg);
+    animation: mic-two 880ms infinite;
   }
 
   .mic-three {
@@ -126,6 +133,7 @@
     top: 40%;
     left: 60%;
     transform: rotate(-45deg);
+    animation: mic-five 880ms infinite;
   }
 
   .mic-six {

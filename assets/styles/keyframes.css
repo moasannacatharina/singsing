@@ -16,6 +16,35 @@
     fill: var(--color-red);
   }
 }
+@keyframes mic-two {
+  0% {
+    transform: rotate(130deg);
+  }
+  50% {
+    transform: rotate(130deg);
+  }
+  50.01% {
+    transform: rotate(110deg);
+  }
+  100% {
+    transform: rotate(110deg);
+  }
+}
+
+@keyframes mic-five {
+  0% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+  50.01% {
+    transform: rotate(-35deg) translateX(45%);
+  }
+  100% {
+    transform: rotate(-35deg) translateX(45%);
+  }
+}
 
 @keyframes bounce {
   0% {
