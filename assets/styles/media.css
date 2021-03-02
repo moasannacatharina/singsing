@@ -24,7 +24,7 @@
   .welcome-letter h2,
   h3,
   button,
-  p {
+  .text {
     margin: 20px;
   }
   .welcome-letter .text-container {
@@ -63,5 +63,112 @@
     color: white;
     margin-top: 2rem;
     padding: 15px 30px;
+  }
+
+  .welcome-letter {
+    background-color: var(--color-red);
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .arrow {
+    position: absolute;
+    width: 81px;
+    height: 40px;
+    overflow: visible;
+    bottom: 0;
+    margin: 20px;
+    animation: bounce 770ms infinite;
+  }
+
+  .microphone {
+    position: absolute;
+    overflow: visible;
+    width: 56px;
+    height: 131px;
+  }
+  .microphone-red {
+    z-index: 1000;
+    left: 50px;
+    top: 50px;
+  }
+
+  .microphone-blue {
+    left: 0;
+    top: 0;
+  }
+
+  .mic-one {
+    left: 150px;
+    top: 120px;
+    transform: rotate(25deg);
+  }
+
+  .mic-two {
+    transform: scale(0.7) rotate(130deg);
+  }
+
+  .mic-three {
+    left: 300px;
+    top: 0;
+    transform: scale(0.7) rotate(-25deg);
+  }
+
+  .mic-four {
+    left: 10px;
+    top: 40%;
+    transform: scale(0.7) rotate(-90deg);
+  }
+
+  .mic-five {
+    top: 40%;
+    left: 60%;
+    transform: rotate(-45deg);
+  }
+
+  .mic-six {
+    top: 62%;
+    left: 40%;
+    transform: scale(0.7) rotate(120deg);
+  }
+
+  .mic-seven {
+    top: 70%;
+    transform: rotate(-10deg);
+    animation: note 880ms infinite;
+  }
+
+  .mic-eight {
+    top: 80%;
+    left: 70%;
+    transform: rotate(50deg);
+  }
+
+  footer {
+    color: white;
+    display: flex;
+    padding: 5rem;
+    padding-left: 10%;
+  }
+  footer div {
+    margin: 2rem;
+    margin-right: 3rem;
+  }
+  footer h4 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+
+  footer div a {
+    text-decoration: none;
+    color: white;
+  }
+
+  footer p,
+  footer a {
+    font-size: 1.2rem;
   }
 }
