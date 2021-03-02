@@ -21,16 +21,15 @@
     padding: 1rem;
   }
 
-  .welcome-letter h2,
-  h3,
+  .welcome-letter h1,
+  h2,
   button,
   .text {
     margin: 20px;
   }
   .welcome-letter .text-container {
-    width: 65%;
-    padding: 5rem;
-    padding-left: 10%;
+    width: 70%;
+    padding: 5rem 10%;
   }
 
   .welcome-letter .microphone-container {
@@ -38,12 +37,12 @@
     position: relative;
   }
 
-  .welcome-letter h2 {
+  .welcome-letter h1 {
     font-size: 6.5rem;
   }
 
-  .welcome-letter h3 {
-    font-size: 3.5rem;
+  .welcome-letter h2 {
+    font-size: 2.8rem;
   }
 
   .welcome-letter p {
@@ -61,7 +60,7 @@
     font-weight: 700;
     font-size: 1.5rem;
     color: white;
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 15px 30px;
   }
 
@@ -118,7 +117,7 @@
   }
 
   .mic-four {
-    left: 10px;
+    left: 12px;
     top: 40%;
     transform: scale(0.7) rotate(-90deg);
   }
@@ -157,7 +156,7 @@
     margin: 2rem;
     margin-right: 3rem;
   }
-  footer h4 {
+  footer h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
   }
