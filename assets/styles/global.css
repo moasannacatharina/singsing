@@ -10,7 +10,7 @@
 
 body {
   background-color: var(--color-blue);
-  font-family: "AvantGardeMdITC", Helvetica;
+  font-family: "AvantGardeMdITC", Helvetica, sans-serif;
 }
 
 .note {
@@ -19,16 +19,67 @@ body {
 
 .hero {
   width: 100%;
-  min-height: 95vh;
+  min-height: 85vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   position: relative;
 }
 
+.star-container {
+  /* background-color: bisque; */
+  width: 100%;
+  min-height: 20vh;
+  position: relative;
+  z-index: 2;
+}
+
+.star-container .star {
+  overflow: visible;
+  position: absolute;
+}
+
+.star-one {
+  fill: white;
+  transform: scale(0.45);
+  top: 70px;
+  left: 10px;
+}
+.star-two {
+  fill: white;
+  top: 15px;
+  left: 12%;
+  transform: scale(0.25);
+}
+
+.star-three {
+  transform: rotate(-20deg) scale(0.4);
+  top: 53px;
+  left: 87px;
+}
+
+.star-four {
+  top: -10px;
+  right: 48%;
+  fill: var(--color-red);
+  transform: translateX(50%) translateY(50%) scale(0.6);
+}
+
+.star-five {
+  top: 20px;
+  left: 60%;
+  transform: scale(0.5) rotate(5deg);
+}
+
+.star-six {
+  top: 70px;
+  right: 0;
+  fill: white;
+  transform: scale(0.38);
+}
 .container {
-  margin-top: 3rem;
   width: 80%;
-  min-height: 70vh;
+  /* min-height: 70vh; */
   clip-path: polygon(
     1% 99%,
     0 3%,
@@ -47,12 +98,85 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   opacity: 0;
-  position: absolute;
+  /* position: absolute; */
   transition: opacity 0.8s ease-in;
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  transform: scale(0.6);
+  overflow: visible;
+  bottom: 60px;
+  margin: 20px;
+  animation: bounce 770ms infinite;
+}
+
+.welcome-letter {
+  background-color: var(--color-red);
+  width: 100%;
+  min-height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-container {
+  width: 100%;
+  margin: 1rem;
+  margin-top: 2rem;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container h1 {
+  font-size: 49px;
+  margin: 20px 0;
+}
+
+.text-container h2 {
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.text-container p {
+  line-height: 110%;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-container button {
+  background-color: var(--color-blue);
+  width: 150px;
+  border: none;
+  box-shadow: unset;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  padding: 10px 15px;
+  margin: 20px;
+}
+.text-container button:hover {
+  background-color: white;
+  color: var(--color-blue);
+  cursor: pointer;
+}
+.microphone-container {
+  display: none;
 }
 
 .show-time {
@@ -62,10 +186,10 @@ body {
 
 .singsing-logo {
   width: 100%;
-  margin: 1rem;
+  margin: 10px;
 }
 
 .intro-svg {
   width: 100%;
-  margin-top: 10px;
+  margin-top: 5px;
 }

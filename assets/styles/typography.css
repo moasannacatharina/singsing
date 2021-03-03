@@ -1,7 +1,7 @@
 @font-face {
   font-family: "AvantGardeMdITC";
-  src: url("assets/fonts/AvantGardeMdITC-Bold.woff2") format("woff2"),
-    url("assets/fonts/AvantGardeMdITC-Bold.woff") format("woff");
+  src: url("../fonts/avantgarde/AvantGardeMdITC-Bold.woff2") format("woff2"),
+    url("../fonts/avantgarde/AvantGardeMdITC-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
