@@ -10,7 +10,7 @@
 
 body {
   background-color: var(--color-blue);
-  font-family: "AvantGardeMdITC", Helvetica, sans-serif;
+  font-family: 'AvantGardeMdITC', Helvetica, sans-serif;
 }
 
 .note {
@@ -19,7 +19,7 @@ body {
 
 .hero {
   width: 100%;
-  min-height: 85vh;
+  min-height: 88vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,6 @@ body {
 }
 
 .star-container {
-  /* background-color: bisque; */
   width: 100%;
   min-height: 20vh;
   position: relative;
@@ -110,7 +109,7 @@ body {
   position: absolute;
   transform: scale(0.6);
   overflow: visible;
-  bottom: 60px;
+  bottom: 10px;
   margin: 20px;
   animation: bounce 770ms infinite;
 }
@@ -130,26 +129,10 @@ body {
   width: 100%;
   margin: 1rem;
   margin-top: 2rem;
-  padding: 2.5rem;
+  padding: 2.5rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.text-container h1 {
-  font-size: 49px;
-  margin: 20px 0;
-}
-
-.text-container h2 {
-  font-size: 19px;
-  margin-bottom: 30px;
-}
-
-.text-container p {
-  line-height: 110%;
-  letter-spacing: 0.5px;
-  margin-bottom: 30px;
 }
 
 .buttons {
@@ -192,4 +175,70 @@ body {
 .intro-svg {
   width: 100%;
   margin-top: 5px;
+}
+
+.program {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+.program-text {
+  margin: 5rem 1rem 1rem;
+}
+
+.program-card {
+  clip-path: polygon(
+    0% 4%,
+    33% 3%,
+    71% 0%,
+    100% 4%,
+    100% 96%,
+    30% 98%,
+    0% 100%
+  );
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem;
+  width: 80%;
+  margin-bottom: 2rem;
+  animation: program-card 880ms infinite;
+}
+
+.program-card svg {
+  transform: scale(1.3);
+  margin-bottom: 1rem;
+}
+
+.hand-one,
+.hand-two {
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+  position: absolute;
+  z-index: 1000;
+  transform: rotate(-10deg);
+}
+.hand-one {
+  bottom: 150px;
+  left: 22px;
+  transform: rotate(170deg);
+}
+.hand-two {
+  bottom: 250px;
+  right: 22px;
+  transform: rotate(-10deg);
+}
+
+footer {
+  color: var(--color-blue);
+  display: flex;
+  padding: 5rem;
+  padding-left: 10%;
+  background-color: white;
 }

@@ -1,7 +1,39 @@
 @font-face {
-  font-family: "AvantGardeMdITC";
-  src: url("../fonts/avantgarde/AvantGardeMdITC-Bold.woff2") format("woff2"),
-    url("../fonts/avantgarde/AvantGardeMdITC-Bold.woff") format("woff");
+  font-family: 'AvantGardeMdITC';
+  src: url('../fonts/avantgarde/AvantGardeMdITC-Bold.woff2') format('woff2'),
+    url('../fonts/avantgarde/AvantGardeMdITC-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
+}
+
+.text-container h1 {
+  font-size: 49px;
+  margin: 20px 0;
+}
+
+.text-container h2 {
+  font-size: 19px;
+  margin-bottom: 30px;
+}
+
+.text-container p {
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+
+.program-text h2 {
+  font-size: 52px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.program-text ul {
+  list-style: none;
+  padding-inline-start: 30px;
+}
+
+.program-text ul li {
+  margin: 2rem 0;
 }
