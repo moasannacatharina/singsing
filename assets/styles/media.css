@@ -14,14 +14,9 @@
     padding-top: 2rem;
     margin-top: 4rem;
   }
-  .singsing-logo {
-    width: 60%;
-    margin: 1rem;
-  }
 
-  .intro-svg {
-    width: 60%;
-    margin-top: 1rem;
+  .start-img {
+    width: 90%;
   }
 
   .star-container {
@@ -39,8 +34,8 @@
   }
 
   .welcome-letter h1,
-  h2,
-  button,
+  .welcome-letter h2,
+  .welcome-letter button,
   .text {
     margin: 20px;
   }
@@ -183,9 +178,16 @@
     padding: 0 1rem;
   }
   .program-card {
-    width: 40%;
-    justify-content: center;
+    width: 50%;
+    justify-content: flex-end;
+  }
+
+  .program-card img {
     animation: none;
+  }
+
+  .pic-container {
+    justify-content: flex-end;
   }
 
   .program h2 {

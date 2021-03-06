@@ -31,7 +31,7 @@
 
 .program-text ul {
   list-style: none;
-  padding-inline-start: 30px;
+  padding-inline-start: 0;
 }
 
 .program-text ul li {
