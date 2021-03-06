@@ -104,13 +104,10 @@
   }
   .microphone-red {
     z-index: 1000;
-    left: 50px;
-    top: 50px;
-  }
-
-  .microphone-blue {
-    left: 0;
-    top: 0;
+    right: 32%;
+    bottom: 10%;
+    transform: scale(1.3);
+    display: block;
   }
 
   .mic-one {
@@ -233,5 +230,23 @@
   footer p,
   footer a {
     font-size: 1.2rem;
+  }
+
+  .bottle {
+    position: absolute;
+    transform: scale(1.3);
+    display: block;
+  }
+
+  .left-hand-bottle {
+    left: 18%;
+    bottom: 15%;
+    animation: left-bottle 880ms infinite;
+  }
+
+  .right-hand-bottle {
+    left: 25%;
+    bottom: 10%;
+    animation: right-bottle 880ms infinite;
   }
 }
