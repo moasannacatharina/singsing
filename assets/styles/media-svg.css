@@ -51,9 +51,6 @@
     opacity: 1;
     animation: show-time-left 0.8s ease-in-out;
   }
-  .arrow {
-    bottom: 0;
-  }
 
   .microphone-container {
     display: block;

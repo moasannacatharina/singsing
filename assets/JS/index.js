@@ -44,6 +44,7 @@ programBtn.addEventListener('click', () => {
   program.scrollIntoView({ behavior: 'smooth' });
 });
 
+const VIPContainer = document.querySelector('.VIP');
 const urlParams = new URLSearchParams(window.location.search);
 const name = urlParams.get('name');
 const VIP = urlParams.get('VIP');
@@ -54,6 +55,6 @@ if (name != null) {
   document.title = `${name} | Eventinbjudan Singsing`;
 }
 
-if (VIP == 'true') {
-  window.alert(`hello, ${name}! you are vip!`);
-}
+// if (VIP == 'true') {
+
+// }
