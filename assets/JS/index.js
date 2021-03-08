@@ -1,9 +1,25 @@
 const container = document.querySelector('.container');
 const starContainer = document.querySelector('.star-container');
+const leftStarContainer = document.querySelector('.stars-left');
+const rightStarContainer = document.querySelector('.stars-right');
+const bottles = document.querySelectorAll('.bottle');
+const redMic = document.querySelector('.microphone-red');
+const startImgs = document.querySelectorAll('.start-img');
 
 window.addEventListener('load', () => {
   container.classList.add('show-time');
   starContainer.classList.add('show-time');
+  leftStarContainer.classList.add('show-time-left');
+  rightStarContainer.classList.add('show-time');
+
+  bottles.forEach((bottle) => {
+    bottle.style.opacity = '1';
+  });
+  redMic.style.opacity = '1';
+
+  startImgs.forEach((startImg) => {
+    startImg.style.opacity = '1';
+  });
 });
 
 const formContainer = document.querySelector('.form-container');
@@ -33,6 +49,10 @@ const name = urlParams.get('name');
 const VIP = urlParams.get('VIP');
 
 console.log(name, VIP);
+
+if (name != null) {
+  document.title = `${name} | Eventinbjudan Singsing`;
+}
 
 if (VIP == 'true') {
   window.alert(`hello, ${name}! you are vip!`);

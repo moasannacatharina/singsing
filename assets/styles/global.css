@@ -89,6 +89,8 @@ body {
 
 .start-img {
   width: 100%;
+  opacity: 0;
+  transition: 0.8s ease-in;
 }
 .arrow-container {
   width: 100%;
@@ -159,6 +161,11 @@ body {
 .show-time {
   opacity: 1;
   animation: show-time 0.8s ease-in-out;
+}
+
+.show-time-left {
+  opacity: 1;
+  animation: show-time-left 0.8s ease-in-out;
 }
 
 .program {
