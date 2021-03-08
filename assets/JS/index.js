@@ -11,11 +11,7 @@ const rsvpBtn = document.querySelector('.rsvp-btn');
 
 rsvpBtn.addEventListener('click', () => {
   formContainer.classList.toggle('form-container-visible');
-  window.scroll({
-    top: 1200,
-    left: 0,
-    behavior: 'smooth',
-  });
+  formContainer.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 const confirmationContainer = document.querySelector('.confirmation');
