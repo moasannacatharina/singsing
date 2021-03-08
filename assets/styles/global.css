@@ -26,6 +26,9 @@ body {
   align-items: center;
   position: relative;
 }
+.stars-desktop {
+  display: none;
+}
 
 .star-container {
   width: 100%;

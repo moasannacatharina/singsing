@@ -23,6 +23,21 @@
     display: none;
   }
 
+  .stars-desktop {
+    position: absolute;
+    display: flex;
+  }
+  .stars-left {
+    top: 5%;
+    left: 9%;
+    transform: scale(0.8);
+  }
+
+  .stars-right {
+    top: 12%;
+    right: 16%;
+  }
+
   .arrow {
     bottom: 0;
   }
