@@ -6,6 +6,7 @@
 :root {
   --color-red: #ff5c56;
   --color-blue: #0741ff;
+  --color-pink: #fad3d4;
 }
 
 body {
@@ -209,8 +210,41 @@ body {
 
 footer {
   color: var(--color-blue);
-  display: flex;
-  padding: 5rem;
-  padding-left: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
   background-color: white;
+  padding: 2rem;
+}
+
+footer div h3 {
+  font-size: 20px;
+  margin-bottom: 13px;
+}
+
+footer a,
+footer p {
+  line-height: 22px;
+}
+
+.form-container {
+  background-color: var(--color-pink);
+  color: var(--color-blue);
+  padding: 2rem;
+  display: none;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container-visible {
+  display: flex;
+}
+
+.confirmation {
+  display: none;
+  margin-top: 2rem;
+  font-size: 1.5rem;
 }

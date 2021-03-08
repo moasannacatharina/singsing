@@ -212,12 +212,15 @@
     left: 630px;
     transform: rotate(-20deg) scale(2);
   }
-
+  footer {
+    display: flex;
+    padding: 5rem 7rem;
+  }
   footer div {
     margin: 2rem;
     margin-right: 3rem;
   }
-  footer h3 {
+  footer div h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
   }
@@ -230,6 +233,7 @@
   footer p,
   footer a {
     font-size: 1.2rem;
+    line-height: 26px;
   }
 
   .bottle {
@@ -248,5 +252,36 @@
     left: 25%;
     bottom: 10%;
     animation: right-bottle 880ms infinite;
+  }
+
+  .form-container {
+    padding: 5rem;
+  }
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    width: 70%;
+    font-size: 1.5rem;
+  }
+
+  form input {
+    width: 75%;
+    padding: 5px;
+  }
+
+  form button {
+    background-color: var(--color-blue);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    padding: 15px 30px;
+    width: 50%;
+    justify-self: end;
+    margin-top: 10px;
+    margin-right: 20px;
   }
 }

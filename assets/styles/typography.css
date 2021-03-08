@@ -17,8 +17,8 @@
 }
 
 .text-container p {
-  line-height: 120%;
-  letter-spacing: 0.5px;
+  line-height: 20px;
+  letter-spacing: 1px;
   margin-bottom: 30px;
 }
 
