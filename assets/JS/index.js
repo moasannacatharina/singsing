@@ -55,6 +55,6 @@ if (name != null) {
   document.title = `${name} | Eventinbjudan Singsing`;
 }
 
-// if (VIP == 'true') {
-
-// }
+if (VIP == 'true') {
+  window.alert('hello!');
+}
