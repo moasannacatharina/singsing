@@ -59,6 +59,7 @@
   .text-container h2 {
     font-size: 2.8rem;
     margin-bottom: 80px;
+    line-height: 50px;
   }
 
   .text-container .text {
