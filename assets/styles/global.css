@@ -150,6 +150,7 @@ body {
   color: white;
   padding: 10px 15px;
   margin: 20px;
+  transition: 0.2s ease-in;
 }
 .text-container button:hover {
   background-color: white;
@@ -168,36 +169,6 @@ body {
 .show-time-left {
   opacity: 1;
   animation: show-time-left 0.8s ease-in-out;
-}
-
-.program {
-  min-height: 80vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  position: relative;
-}
-.program-text {
-  margin: 5rem 1rem 1rem;
-}
-
-.program-card {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1rem;
-}
-
-.program-card img {
-  width: 100%;
-  animation: program-card 880ms infinite;
-}
-
-.pic-container {
-  display: flex;
-  justify-content: center;
 }
 
 .form-container {
@@ -256,12 +227,57 @@ form button {
   font-size: 1.1rem;
 }
 
-footer {
+.program {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+.program-text {
+  margin: 5rem 1rem 1rem;
+}
+
+.program-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.program-card img {
+  width: 100%;
+  animation: program-card 880ms infinite;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  background-color: var(--color-pink);
   color: var(--color-blue);
+  padding-top: 1rem;
+}
+.menu {
+  margin-top: 2rem;
+  padding: 2.5rem 3rem;
+}
+
+footer {
+  color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 2rem;
-  background-color: white;
-  padding: 2rem;
+  grid-gap: 1rem;
+  background-color: var(--color-blue);
+  padding: 3rem 2.2rem;
+}
+
+.social,
+.icons {
+  margin-top: 1rem;
 }

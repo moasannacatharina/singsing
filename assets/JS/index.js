@@ -45,6 +45,7 @@ programBtn.addEventListener('click', () => {
 });
 
 const VIPContainer = document.querySelector('.VIP');
+console.log(VIPContainer);
 const urlParams = new URLSearchParams(window.location.search);
 const name = urlParams.get('name');
 const VIP = urlParams.get('VIP');
