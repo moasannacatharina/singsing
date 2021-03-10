@@ -75,18 +75,19 @@
 
   .mic-one {
     left: 150px;
-    top: 120px;
+    top: 250px;
     transform: rotate(25deg);
   }
 
   .mic-two {
     transform: scale(0.7) rotate(130deg);
     animation: mic-two 880ms infinite;
+    top: 3rem;
   }
 
   .mic-three {
     left: 70%;
-    top: 0;
+    top: 3rem;
     transform: scale(0.7) rotate(-25deg);
   }
 

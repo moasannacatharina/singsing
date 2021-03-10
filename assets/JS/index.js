@@ -49,10 +49,14 @@ const urlParams = new URLSearchParams(window.location.search);
 const name = urlParams.get('name');
 const VIP = urlParams.get('VIP');
 
+const nameSpan = document.querySelector('.name');
+const input = document.querySelector('#name');
 console.log(name, VIP);
 
 if (name != null) {
   document.title = `${name} | Eventinbjudan Singsing`;
+  nameSpan.textContent = name;
+  input.value = name;
 }
 
 if (VIP == 'true') {

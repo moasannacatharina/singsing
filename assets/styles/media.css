@@ -32,12 +32,13 @@
   .welcome-letter h1,
   .welcome-letter h2,
   .welcome-letter button,
-  .text {
-    margin: 20px;
+  .text,
+  .date {
+    /* margin: 20px; */
   }
   .welcome-letter .text-container {
     width: 70%;
-    padding: 5rem 10%;
+    padding: 4rem 5rem;
     margin: 10px;
     margin-top: unset;
     display: unset;
@@ -50,24 +51,32 @@
     position: relative;
   }
 
-  .welcome-letter h1 {
+  .text-container h1 {
     font-size: 6.5rem;
+    margin-bottom: 38px;
   }
 
-  .welcome-letter h2 {
+  .text-container h2 {
     font-size: 2.8rem;
+    margin-bottom: 80px;
   }
 
-  .welcome-letter p {
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 20px;
+  .text-container .text {
+    font-size: 28px;
+    letter-spacing: 0.7px;
+    line-height: 30px;
     font-weight: 400;
   }
 
   .text-container .buttons {
     flex-direction: row;
     align-items: unset;
+  }
+
+  .text-container .date {
+    font-size: 35px;
+    line-height: 60px;
+    margin-top: 3rem;
   }
   .welcome-letter button {
     width: unset;
@@ -78,8 +87,8 @@
     font-weight: 700;
     font-size: 1.5rem;
     color: white;
-    margin-top: 4rem;
-    padding: 15px 30px;
+    margin: 4rem 50px 0 0;
+    padding: 15px 50px;
   }
 
   .welcome-letter button:hover {
@@ -121,6 +130,9 @@
     margin-right: 20px;
   }
 
+  .confirmation {
+    font-size: 1.5rem;
+  }
   /* Third container  */
 
   .program {
@@ -185,7 +197,8 @@
   .right-hand-bottle,
   .show-time,
   .show-time-left,
-  .program-card img {
+  .program-card img,
+  .arrow {
     animation-name: dissolve;
   }
 }
