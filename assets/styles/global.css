@@ -139,7 +139,8 @@ body {
   flex-direction: column;
 }
 
-.text-container button {
+.text-container button,
+form button {
   background-color: var(--color-blue);
   width: 150px;
   border: none;
@@ -152,7 +153,7 @@ body {
   margin: 20px;
   transition: 0.2s ease-in;
 }
-.text-container button:hover {
+button:hover {
   background-color: white;
   color: var(--color-blue);
   cursor: pointer;
@@ -180,14 +181,53 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  font-size: 20px;
 }
 
 .form-container-visible {
   display: flex;
 }
 
+.VIP {
+  display: none;
+  width: 90%;
+  margin: 2rem;
+}
+
+.VIP h3 {
+  font-size: 42px;
+}
+
+.VIP p {
+  font-size: 16px;
+  margin-left: 20px;
+  line-height: 21px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  width: 90%;
+}
+form input {
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+}
+form button {
+  margin: 20px 30px;
+}
+
 .confirmation {
   display: none;
+  text-align: center;
   margin-top: 2rem;
   font-size: 1.1rem;
 }
@@ -250,8 +290,4 @@ footer {
 .instagram {
   width: 68px;
   margin-left: 10px;
-}
-
-.VIP {
-  display: none;
 }
