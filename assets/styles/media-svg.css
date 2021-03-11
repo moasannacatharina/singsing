@@ -33,13 +33,16 @@
   .left-hand-bottle {
     left: 18%;
     bottom: 15%;
-    animation: left-bottle 880ms infinite;
+    animation: left-bottle 1s infinite;
   }
 
   .right-hand-bottle {
     left: 25%;
     bottom: 10%;
-    animation: right-bottle 880ms infinite;
+    animation: right-bottle 1s infinite;
+  }
+  .bubbles {
+    animation: bubbles 1s infinite;
   }
 
   .show-time {
@@ -122,13 +125,38 @@
     transform: rotate(50deg);
   }
 
+  .notes {
+    display: block;
+    position: absolute;
+    width: 70px;
+  }
+
+  .note-single {
+    top: 120px;
+    left: 55px;
+    transform: rotate(15deg);
+    animation: note 880ms infinite;
+  }
+
+  .note-double-1 {
+    left: 60px;
+    bottom: 120px;
+    transform: rotate(10deg);
+    animation: note-double-1 880ms infinite;
+  }
+  .note-double-2 {
+    top: 120px;
+    left: 44%;
+    animation: note-double-2 770ms infinite;
+  }
+
   .program-card {
     width: 50%;
     justify-content: center;
     margin: 3rem 0 1rem 20px;
   }
 
-  .program-card img {
+  .pic-container img {
     animation: none;
   }
 

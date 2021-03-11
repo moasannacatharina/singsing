@@ -4,7 +4,7 @@
 }
 
 :root {
-  --color-red: #ff5c56;
+  --color-red: #f95c56;
   --color-blue: #0741ff;
   --color-pink: #fad3d4;
 }
@@ -12,10 +12,6 @@
 body {
   background-color: var(--color-blue);
   font-family: 'AvantGardeMdITC', Helvetica, sans-serif;
-}
-
-.note {
-  animation: note 880ms infinite;
 }
 
 .hero {
@@ -241,6 +237,9 @@ form button {
   color: white;
   position: relative;
 }
+.notes {
+  display: none;
+}
 .program-text {
   margin: 5rem 1rem 1rem;
 }
@@ -252,7 +251,7 @@ form button {
   margin-bottom: 5rem;
 }
 
-.program-card img {
+.pic-container img {
   width: 100%;
   animation: program-card 880ms infinite;
 }
