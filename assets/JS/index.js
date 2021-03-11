@@ -56,10 +56,10 @@ console.log(name, VIP);
 
 if (name != null) {
   document.title = `${name} | Eventinbjudan Singsing`;
-  nameSpan.textContent = name;
+  nameSpan.textContent = ` ${name}`;
   input.value = name;
 }
 
 if (VIP == 'true') {
-  window.alert('hello!');
+  VIPContainer.style.display = 'flex';
 }

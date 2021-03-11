@@ -135,4 +135,18 @@
   .pic-container {
     justify-content: flex-end;
   }
+
+  .icons a {
+    margin: 0;
+    padding: 0;
+  }
+  .icons img {
+    transform: scale(1.5);
+    margin-right: 6rem;
+  }
+
+  /* .instagram {
+    margin-left: 1rem;
+    width: 80px;
+  } */
 }

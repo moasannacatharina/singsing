@@ -52,8 +52,8 @@
   }
 
   .text-container h1 {
-    font-size: 6.5rem;
-    margin-bottom: 38px;
+    font-size: 100px;
+    margin-bottom: 30px;
   }
 
   .text-container h2 {
@@ -101,20 +101,23 @@
   /* Form  */
 
   .form-container {
-    padding: 5rem;
+    padding: 7rem;
+    align-items: flex-start;
   }
   form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
-    width: 70%;
-    font-size: 1.5rem;
+    width: 100%;
+    font-size: 35px;
   }
 
   form input {
-    width: 75%;
-    padding: 5px;
+    width: 70%;
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
   }
 
   form button {
@@ -133,6 +136,20 @@
 
   .confirmation {
     font-size: 1.5rem;
+  }
+  .VIP {
+    margin-bottom: 3rem;
+    width: 90%;
+  }
+
+  .VIP h3 {
+    font-size: 70px;
+  }
+
+  .VIP p {
+    font-size: 29px;
+    width: 60%;
+    margin-left: 3rem;
   }
   /* Third container  */
 
@@ -163,11 +180,42 @@
     font-size: 30px;
   }
 
+  /* Food  */
+
+  .menu {
+    padding: 6rem;
+    margin: 10px;
+  }
+
+  .menu div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu h3 {
+    font-size: 35px;
+    margin-bottom: 3rem;
+  }
+
+  .menu li {
+    font-size: 66px;
+    line-height: 70px;
+  }
+
+  .menu p {
+    font-size: 38px;
+    line-height: 37px;
+    width: 65%;
+    margin: 0 0 0 5rem;
+  }
   /* Footer  */
 
-  .social,
-  .icons {
+  .social {
     margin-top: 2rem;
+  }
+
+  .icons {
+    margin-top: 3rem;
   }
 
   footer {
