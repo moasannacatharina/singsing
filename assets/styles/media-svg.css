@@ -142,7 +142,12 @@
   }
   .icons img {
     transform: scale(1.5);
-    margin-right: 6rem;
+    margin-right: 4rem;
+    transition: 0.2s ease;
+  }
+
+  .icons img:hover {
+    transform: rotate(10deg) scale(1.5);
   }
 
   /* .instagram {
