@@ -22,65 +22,41 @@ body {
   align-items: center;
   position: relative;
 }
+
+.row {
+  width: 100%;
+}
 .stars-desktop {
   display: none;
 }
 
 .star-container {
-  width: 100%;
+  margin-top: 1rem;
+  width: 70%;
+  background-image: url('../images/stars-mobile.svg');
   min-height: 20vh;
-  position: relative;
-  z-index: 2;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  transition: opacity 2s ease-in;
 }
 
-.star-container .star {
-  overflow: visible;
-  position: absolute;
-}
-
-.star-one {
-  fill: white;
-  transform: scale(0.45);
-  top: 70px;
-  left: 10px;
-}
-.star-two {
-  fill: white;
-  top: 15px;
-  left: 12%;
-  transform: scale(0.25);
-}
-
-.star-three {
-  transform: rotate(-20deg) scale(0.4);
-  top: 53px;
-  left: 87px;
-}
-
-.star-four {
-  top: -10px;
-  right: 48%;
-  fill: var(--color-red);
-  transform: translateX(50%) translateY(50%) scale(0.6);
-}
-
-.star-five {
-  top: 20px;
-  left: 60%;
-  transform: scale(0.5) rotate(5deg);
-}
-
-.star-six {
-  top: 70px;
-  right: 0;
-  fill: white;
-  transform: scale(0.38);
-}
 .container {
   width: 100%;
   opacity: 0;
   transition: opacity 0.8s ease-in;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.show-time {
+  opacity: 1;
+  animation: show-time 1s ease-in-out;
+}
+
+.show-time-left {
+  opacity: 1;
+  animation: show-time-left 1s ease-in-out;
 }
 
 .start-img {
@@ -158,16 +134,6 @@ button:hover {
   display: none;
 }
 
-.show-time {
-  opacity: 1;
-  animation: show-time 0.8s ease-in-out;
-}
-
-.show-time-left {
-  opacity: 1;
-  animation: show-time-left 0.8s ease-in-out;
-}
-
 .form-container {
   background-color: var(--color-pink);
   color: var(--color-blue);
@@ -188,16 +154,6 @@ button:hover {
   display: none;
   width: 90%;
   margin: 2rem;
-}
-
-.VIP h3 {
-  font-size: 42px;
-}
-
-.VIP p {
-  font-size: 16px;
-  margin-left: 20px;
-  line-height: 21px;
 }
 
 form {

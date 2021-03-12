@@ -9,16 +9,6 @@
     align-items: center;
     position: relative;
   }
-  .container {
-    width: 50%;
-    padding: 3rem;
-    padding-top: 2rem;
-    margin-top: 4rem;
-  }
-
-  .star-container {
-    display: none;
-  }
 
   /* Second section  */
 
@@ -29,13 +19,6 @@
     margin-top: 1rem;
   }
 
-  .welcome-letter h1,
-  .welcome-letter h2,
-  .welcome-letter button,
-  .text,
-  .date {
-    /* margin: 20px; */
-  }
   .welcome-letter .text-container {
     width: 70%;
     padding: 4rem 5rem;

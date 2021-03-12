@@ -9,8 +9,6 @@ const startImgs = document.querySelectorAll('.start-img');
 window.addEventListener('load', () => {
   container.classList.add('show-time');
   starContainer.classList.add('show-time');
-  leftStarContainer.classList.add('show-time-left');
-  rightStarContainer.classList.add('show-time');
 
   bottles.forEach((bottle) => {
     bottle.style.opacity = '1';

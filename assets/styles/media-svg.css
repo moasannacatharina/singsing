@@ -1,43 +1,57 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1025px) {
   .start-img {
-    width: 90%;
+    width: 100%;
   }
 
-  .stars-desktop {
-    position: absolute;
+  .container {
+    width: 40%;
+    padding: 0;
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+  }
+
+  .row {
     display: flex;
+    justify-content: center;
+  }
+
+  .star-container {
+    display: none;
+  }
+  .stars-desktop {
+    position: relative;
+    display: flex;
+    width: 25%;
   }
   .stars-left {
-    top: 5%;
-    left: 9%;
+    position: absolute;
+    right: 0;
+    top: 0;
     transform: scale(0.8);
-    opacity: 0;
-    transition: opacity 0.8s ease-in;
   }
 
   .stars-right {
-    top: 12%;
-    right: 16%;
-    opacity: 0;
-    transition: opacity 0.8s ease-in;
+    position: absolute;
+    left: 0;
+    transform: scale(0.8);
   }
 
   .bottle {
     position: absolute;
-    transform: scale(1.3);
+    transform: scale(1.2);
     display: block;
     opacity: 0;
     transition: 0.8s ease-in;
   }
 
   .left-hand-bottle {
-    left: 18%;
+    left: 21%;
     bottom: 15%;
     animation: left-bottle 1s infinite;
   }
 
   .right-hand-bottle {
-    left: 25%;
+    left: 28%;
     bottom: 10%;
     animation: right-bottle 1s infinite;
   }
@@ -68,7 +82,7 @@
 
   .microphone-red {
     z-index: 1000;
-    right: 32%;
+    right: 30%;
     bottom: 10%;
     transform: scale(1.3);
     display: block;

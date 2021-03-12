@@ -30,6 +30,16 @@
   margin-bottom: 30px;
 }
 
+.VIP h3 {
+  font-size: 42px;
+}
+
+.VIP p {
+  font-size: 16px;
+  margin-left: 20px;
+  line-height: 21px;
+}
+
 .program-text h2 {
   font-size: 52px;
   text-align: left;
