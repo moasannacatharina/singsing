@@ -26,14 +26,20 @@
   .stars-left {
     position: absolute;
     right: 0;
-    top: 0;
-    transform: scale(0.8);
+    top: 8%;
+    transform: scale(0.9);
   }
 
   .stars-right {
     position: absolute;
     left: 0;
-    transform: scale(0.8);
+    top: 8%;
+  }
+  .star-right-corner {
+    animation: star 2s ease-in-out;
+  }
+  .star-red-small-right {
+    animation: star 4s ease-in;
   }
 
   .bottle {
@@ -61,7 +67,7 @@
 
   .show-time {
     opacity: 1;
-    animation: show-time 0.8s ease-in-out;
+    animation: show-time 1.5s ease-in-out;
   }
 
   .show-time-left {

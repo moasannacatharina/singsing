@@ -36,17 +36,17 @@
 
   .text-container h1 {
     font-size: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   .text-container h2 {
-    font-size: 2.8rem;
-    margin-bottom: 70px;
+    font-size: 45px;
+    margin-bottom: 50px;
     line-height: 50px;
   }
 
   .text-container .text {
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 0.7px;
     line-height: 30px;
     font-weight: 400;
@@ -58,8 +58,8 @@
   }
 
   .text-container .date {
-    font-size: 38px;
-    line-height: 60px;
+    font-size: 35px;
+    line-height: 55px;
     margin-top: 3rem;
   }
   .text-container button {
@@ -72,7 +72,7 @@
     font-size: 30px;
     color: white;
     margin: 4rem 50px 0 0;
-    padding: 15px 20px;
+    padding: 15px 25px;
   }
 
   .welcome-letter button:hover {
@@ -115,11 +115,11 @@
     font-weight: 700;
     font-size: 1.5rem;
     color: white;
-    padding: 15px 30px;
-    width: 50%;
+    padding: 15px 20px;
+    width: 40%;
     justify-self: end;
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .confirmation {
@@ -242,7 +242,11 @@
   .show-time,
   .show-time-left,
   .program-card img,
-  .arrow {
+  .arrow,
+  .bubbles,
+  .note-double-1,
+  .note-double-2,
+  .note-single {
     animation-name: dissolve;
   }
 }
