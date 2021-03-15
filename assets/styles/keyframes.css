@@ -88,15 +88,17 @@
 @keyframes show-time {
   0% {
     transform: translateY(500px);
+    opacity: 0;
   }
   50% {
     transform: translateY(0);
   }
   75% {
-    transform: rotate(5deg);
+    transform: rotate(5deg) scale(1.2);
   }
   100% {
     transform: rotate(0deg);
+    opacity: 1;
   }
 }
 @keyframes show-time-left {
@@ -158,7 +160,7 @@
   }
   100% {
     transform: rotate(-10deg) scale(0.8);
-    opacity: 1;
+    opacity: 0;
   }
 }
 @keyframes left-bottle {
@@ -190,6 +192,72 @@
     opacity: 0.8;
   }
   100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(-600px);
+  }
+  50% {
+    transform: translateX(65%) rotate(10deg);
+  }
+  75% {
+    transform: translateX(-100px) rotate(-10deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+}
+
+@keyframes slide-in-mobile {
+  0% {
+    transform: translateX(-300px);
+  }
+  50% {
+    transform: translateX(30px) rotate(10deg);
+  }
+  75% {
+    transform: translateX(-30px) rotate(-5deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+}
+
+@keyframes red-mic {
+  0% {
+    transform: translateY(-700px) rotate(180deg) scale(1.3);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(30px) rotate(0) scale(1.3);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0) rotate(0) scale(1.3);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-bottle-left {
+  0% {
+    transform: translateX(-600px) scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scale(1.2);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottle-right {
+  0% {
+    transform: translateX(600px) scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) scale(1.2);
     opacity: 1;
   }
 }

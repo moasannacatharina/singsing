@@ -2,7 +2,9 @@
   box-sizing: border-box;
   margin: 0;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --color-red: #f95c56;
   --color-blue: #0741ff;
@@ -38,20 +40,18 @@ body {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-  opacity: 0;
-  transition: opacity 2s ease-in;
+  animation: show-time 2s ease-in-out;
 }
 
 .container {
   width: 100%;
-  opacity: 0;
-  transition: opacity 0.8s ease-in;
   padding: 0 2rem 2rem 2rem;
+  animation: slide-in-mobile 1.2s ease-in-out;
 }
 
 .show-time {
   opacity: 1;
-  animation: show-time 1s ease-in-out;
+  animation: show-time 2s ease-in-out;
 }
 
 .show-time-left {
@@ -61,8 +61,8 @@ body {
 
 .start-img {
   width: 100%;
-  opacity: 0;
-  transition: 0.8s ease-in;
+  /* opacity: 0; */
+  /* transition: 0.8s ease-in; */
 }
 .arrow-container {
   width: 100%;

@@ -212,7 +212,7 @@
 
   footer {
     display: flex;
-    padding: 5rem 7rem;
+    padding: 5rem 5rem;
   }
   footer div {
     margin: 2rem;
@@ -221,6 +221,7 @@
   footer div h3 {
     font-size: 2.2rem;
     margin-bottom: 1rem;
+    letter-spacing: 1px;
   }
 
   footer div a {

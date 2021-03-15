@@ -8,6 +8,7 @@
     padding: 0;
     padding-bottom: 3rem;
     margin-top: 4rem;
+    animation: slide-in 1.3s ease-in-out;
   }
 
   .row {
@@ -22,6 +23,8 @@
     position: relative;
     display: flex;
     width: 25%;
+    animation: slide-in 1.3s ease-in-out;
+    /* opacity: 0; */
   }
   .stars-left {
     position: absolute;
@@ -35,32 +38,26 @@
     left: 0;
     top: 8%;
   }
-  .star-right-corner {
-    animation: star 2s ease-in-out;
-  }
-  .star-red-small-right {
-    animation: star 4s ease-in;
-  }
 
   .bottle {
     position: absolute;
     transform: scale(1.2);
     display: block;
     opacity: 0;
-    transition: 0.8s ease-in;
   }
 
   .left-hand-bottle {
     left: 21%;
     bottom: 15%;
-    animation: left-bottle 1s infinite;
+    animation: slide-in-bottle-left 0.7s ease-in 1s;
   }
 
   .right-hand-bottle {
     left: 28%;
     bottom: 10%;
-    animation: right-bottle 1s infinite;
+    animation: slide-in-bottle-right 0.7s ease-in 1s;
   }
+
   .bubbles {
     animation: bubbles 1s infinite;
   }
@@ -94,6 +91,7 @@
     display: block;
     opacity: 0;
     transition: 0.8s ease-in;
+    animation: red-mic 0.9s ease-in-out 2s;
   }
 
   .mic-one {
