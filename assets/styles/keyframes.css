@@ -85,37 +85,6 @@
   }
 }
 
-@keyframes show-time {
-  0% {
-    transform: translateY(500px);
-    opacity: 0;
-  }
-  50% {
-    transform: translateY(0);
-  }
-  75% {
-    transform: rotate(5deg) scale(1.2);
-  }
-  100% {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-}
-@keyframes show-time-left {
-  0% {
-    transform: translateY(500px) scale(0.8);
-  }
-  50% {
-    transform: translateY(0) scale(0.8);
-  }
-  75% {
-    transform: rotate(5deg) scale(0.8);
-  }
-  100% {
-    transform: rotate(0deg) scale(0.8);
-  }
-}
-
 @keyframes program-card {
   0% {
     transform: rotate(0deg);
@@ -160,7 +129,7 @@
   }
   100% {
     transform: rotate(-10deg) scale(0.8);
-    opacity: 0;
+    opacity: 1;
   }
 }
 @keyframes left-bottle {
@@ -175,24 +144,6 @@
   }
   100% {
     transform: rotate(10deg) scale(1.2);
-  }
-}
-
-@keyframes star {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0.4;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 1;
   }
 }
 

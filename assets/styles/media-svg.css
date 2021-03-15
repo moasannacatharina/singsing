@@ -91,7 +91,7 @@
     display: block;
     opacity: 0;
     transition: 0.8s ease-in;
-    animation: red-mic 0.9s ease-in-out 2s;
+    animation: red-mic 1s ease-in-out 2s;
   }
 
   .mic-one {
