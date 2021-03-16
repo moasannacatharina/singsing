@@ -2,18 +2,20 @@
 
 <img src="https://media.giphy.com/media/m7yD4DR4k0XPULVTYf/giphy.gif" width="50%" />
 
-## About 
+## About
+
+A school assignment collaboration between students from Web Developer and IP Graphical Production and Form at Yrgo.
+Our mission is to create an event invitation in digital and physical form for a company or organisation of our choosing. The event can be fictitious or recurring.
+My job has been to create a static landing page in HTML, CSS and Javascript based on wireframes and designs given to me by a student from IP.
 <br>
-A school assignment collaboration between students from Web Developer and IP Graphical Production and Form at Yrgo. 
-Our mission is to create an event invitation in digital and physical form for a company or organisation of our choosing. The event can be fictitious or recurring. 
-My job has been to create a static landing page in HTML, CSS and Javascript based on wireframes and designs given to me by a student from IP. 
-<br>
-We've chosen to create an invitation for the karaoke bar Singsing in Gothenburg. The event is the launch of their new karaoke bar. Which isn't real, by the way. It's very fake. 
-<br>
-[Singsing Event Page](https://singsing.vercel.app/).
+We've chosen to create an invitation for the karaoke bar Singsing in Gothenburg. The event is the launch of their new karaoke bar. Which isn't real, by the way. It's very fake.
 <br>
 
-<detail><summary>Project requirements</summary
+- [Singsing Event Page](https://singsing.vercel.app/)
+  <br>
+
+<detail><summary>Project requirements</summary>
+
 - A unique landing page that follows the graphic manner of the chosen company.
 - The landing page should be responsive and be built mobile first and follow the accessibility standard of WCAG (https://a11yproject.com/checklist/).
 - The landing page needs to contain at least five animations, one of which must be an in-animation when the page is first displayed.
@@ -24,16 +26,15 @@ We've chosen to create an invitation for the karaoke bar Singsing in Gothenburg.
 - It should also be hosted on a hosting service such as Netlify, Vercel or GitHub Pages.
 - The landing page should be optimized and have as high a score as possible on https://web.dev/ by using a bundler such as Parcel.
 - Each group must submit a review of another group the day before the presentation. Code reviews must be submitted with a pull request.
-
   </detail>
 
 ## Personalizations
 
-We have included the invited persons name and whether or not they are VIP. 
-Example of url: https://singsing.vercel.app/?name=Moa&VIP=true. 
+We have included the invited persons name and whether or not they are VIP.
+<br>
+Example of url: https://singsing.vercel.app/?name=Moa&VIP=true.
 
-## Code Review 
-
+## Code Review
 
 ## 🎈Created by
 
