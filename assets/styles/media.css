@@ -107,6 +107,7 @@
     width: 70%;
     margin-left: 10px;
     margin-top: 0;
+    font-size: 18px;
   }
 
   form button {
@@ -154,14 +155,16 @@
     flex-direction: row-reverse;
     align-items: unset;
     position: relative;
+    margin-top: unset;
   }
 
   .program-text {
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 0 1rem;
+    justify-content: flex-end;
+    padding-left: unset;
+    padding: 4rem 1rem;
   }
 
   .program h2 {
@@ -170,7 +173,7 @@
     letter-spacing: 2px;
   }
 
-  .program li {
+  .program-text ul li {
     font-size: 30px;
   }
 

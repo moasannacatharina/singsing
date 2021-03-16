@@ -7,25 +7,26 @@
 }
 
 .text-container h1 {
-  font-size: 48px;
+  font-size: 50px;
   margin: 20px 0;
   text-transform: uppercase;
 }
 
 .text-container h2 {
-  font-size: 23px;
+  font-size: 24px;
   line-height: 25px;
   margin-bottom: 42px;
 }
 
 .text-container .text {
-  line-height: 20px;
+  line-height: 25px;
+  font-size: 19px;
   letter-spacing: 0.6px;
   margin-bottom: 30px;
 }
 
 .text-container .date {
-  font-size: 20px;
+  font-size: 23px;
   line-height: 28px;
   margin-bottom: 30px;
 }
@@ -41,7 +42,7 @@
 }
 
 .program-text h2 {
-  font-size: 52px;
+  font-size: 50px;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 2rem;
@@ -54,6 +55,7 @@
 
 .program-text ul li {
   margin: 2rem 0;
+  font-size: 19px;
 }
 
 .menu h3 {
