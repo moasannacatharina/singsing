@@ -15,7 +15,6 @@ We've chosen to create an invitation for the karaoke bar Singsing in Gothenburg.
 <br>
 
 <details><summary>Project requirements</summary>
-<br>
 - A unique landing page that follows the graphic manner of the chosen company.
 - The landing page should be responsive and be built mobile first and follow the accessibility standard of WCAG (https://a11yproject.com/checklist/).
 - The landing page needs to contain at least five animations, one of which must be an in-animation when the page is first displayed.
