@@ -14,7 +14,7 @@ We've chosen to create an invitation for the karaoke bar Singsing in Gothenburg.
 - [Singsing Event Page](https://singsing.vercel.app/)
   <br>
 
-<detail><summary>Project requirements</summary>
+<details><summary>Project requirements</summary>
 
 - A unique landing page that follows the graphic manner of the chosen company.
 - The landing page should be responsive and be built mobile first and follow the accessibility standard of WCAG (https://a11yproject.com/checklist/).
@@ -26,7 +26,7 @@ We've chosen to create an invitation for the karaoke bar Singsing in Gothenburg.
 - It should also be hosted on a hosting service such as Netlify, Vercel or GitHub Pages.
 - The landing page should be optimized and have as high a score as possible on https://web.dev/ by using a bundler such as Parcel.
 - Each group must submit a review of another group the day before the presentation. Code reviews must be submitted with a pull request.
-  </detail>
+  </details>
 
 ## Personalizations
 
