@@ -72,6 +72,10 @@
     animation: show-time-left 0.8s ease-in-out;
   }
 
+  .welcome-letter .text-container {
+    width: 65%;
+  }
+
   .microphone-container {
     display: block;
   }
@@ -141,6 +145,15 @@
     top: 80%;
     left: 70%;
     transform: rotate(50deg);
+  }
+
+  .program {
+    padding: 2rem;
+    flex-direction: row-reverse;
+  }
+
+  .program-text {
+    width: 50%;
   }
 
   .notes {
