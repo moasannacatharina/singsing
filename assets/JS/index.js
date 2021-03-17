@@ -22,7 +22,7 @@ const addOpacity = () => {
 // Add new animation after initial in-animation.
 
 setTimeout(addAnimation, 1700);
-setTimeout(addOpacity, 3000);
+setTimeout(addOpacity, 2700);
 
 //Set session storage to keep in animation from firing again on page reload.
 
