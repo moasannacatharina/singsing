@@ -159,45 +159,45 @@
   .notes {
     display: block;
     position: absolute;
-    width: 70px;
+    width: 120px;
   }
 
   .note-single {
-    top: 120px;
-    left: 55px;
+    top: 90px;
+    left: 40px;
     transform: rotate(15deg);
     animation: note 880ms infinite;
   }
 
   .note-double-1 {
-    left: 60px;
+    left: 50px;
     bottom: 120px;
     transform: rotate(10deg);
     animation: note-double-1 880ms infinite;
   }
   .note-double-2 {
-    top: 120px;
-    left: 44%;
+    top: 100px;
+    left: 42%;
     animation: note-double-2 770ms infinite;
   }
 
   .note-single-2 {
     top: 50px;
     left: 52%;
-    transform: scale(0.7) rotate(20deg);
+    transform: rotate(20deg);
     display: none;
   }
 
   .note-double-3 {
-    top: 50px;
-    left: 60%;
+    top: 65px;
+    left: 62%;
     transform: rotate(-10deg);
     display: none;
   }
 
   .note-single-3 {
     top: 0;
-    left: 68%;
+    left: 70%;
     transform: scale(0.7);
     display: none;
   }
