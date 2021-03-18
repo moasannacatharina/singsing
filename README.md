@@ -36,6 +36,11 @@ Example of url: https://singsing.vercel.app/?name=Moa&VIP=true.
 
 ## Code Review
 
+- `Events.js` I suggest you put all query selectors at the top of the document.
+- `Index.html:198` I would suggest that you add aria-label for accessibility.
+- Great structure of files, made it easy to find everything.
+- Amazing work! Easy to read your code and overall everything is great!
+
 ## 🎈Created by
 
 - [Moa Berg](https://github.com/moasannacatharina) (WU)
