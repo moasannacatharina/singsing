@@ -121,7 +121,6 @@ form button {
   color: white;
   padding: 10px 15px;
   margin: 20px;
-  transition: 0.2s ease-in;
 }
 button:hover {
   background-color: white;

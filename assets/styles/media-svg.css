@@ -181,6 +181,27 @@
     animation: note-double-2 770ms infinite;
   }
 
+  .note-single-2 {
+    top: 50px;
+    left: 52%;
+    transform: scale(0.7) rotate(20deg);
+    display: none;
+  }
+
+  .note-double-3 {
+    top: 50px;
+    left: 60%;
+    transform: rotate(-10deg);
+    display: none;
+  }
+
+  .note-single-3 {
+    top: 0;
+    left: 68%;
+    transform: scale(0.7);
+    display: none;
+  }
+
   .program-card {
     width: 50%;
     display: flex;
