@@ -23,15 +23,19 @@ programBtn.addEventListener('click', () => {
   program.scrollIntoView();
 });
 
-if (window.innerWidth > 1025) {
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 1500) {
-      note2.style.display = 'block';
-      note2.style.animation = 'note-single-2 1s ease-in-out';
-      note3.style.display = 'block';
-      note3.style.animation = 'note-single-3 1s ease-in';
-      doubleNote.style.display = 'block';
-      doubleNote.style.animation = 'note-double-3 2s ease';
-    }
-  });
-}
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 1500 && window.innerWidth > 1025) {
+    note2.style.display = 'block';
+    note2.style.animation = 'note-single-2 1s ease-in-out';
+    note3.style.display = 'block';
+    note3.style.animation = 'note-single-3 1s ease-in';
+    doubleNote.style.display = 'block';
+    doubleNote.style.animation = 'note-double-3 2s ease';
+  }
+});
+
+window.addEventListener('resize', () => {
+  note2.style.display = 'none';
+  note3.style.display = 'none';
+  doubleNote.style.display = 'none';
+});
